@@ -13,6 +13,7 @@
 		0CBE9C0126F82E9600EB9156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CBE9BFF26F82E9600EB9156 /* Main.storyboard */; };
 		0CBE9C0326F82E9B00EB9156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CBE9C0226F82E9B00EB9156 /* Assets.xcassets */; };
 		0CBE9C0626F82E9B00EB9156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CBE9C0426F82E9B00EB9156 /* LaunchScreen.storyboard */; };
+		0CBE9C1A26F8EC0A00EB9156 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBE9C1926F8EC0A00EB9156 /* CardCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,10 @@
 		0CBE9C0226F82E9B00EB9156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CBE9C0526F82E9B00EB9156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CBE9C0726F82E9B00EB9156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CBE9C1426F8D9D400EB9156 /* desert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = desert.jpg; sourceTree = "<group>"; };
+		0CBE9C1526F8D9D500EB9156 /* mountain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mountain.jpg; sourceTree = "<group>"; };
+		0CBE9C1626F8D9D500EB9156 /* beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beach.jpg; sourceTree = "<group>"; };
+		0CBE9C1926F8EC0A00EB9156 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +66,12 @@
 				0CBE9BFD26F82E9600EB9156 /* ViewController.swift */,
 				0CBE9BFF26F82E9600EB9156 /* Main.storyboard */,
 				0CBE9C0226F82E9B00EB9156 /* Assets.xcassets */,
+				0CBE9C1626F8D9D500EB9156 /* beach.jpg */,
+				0CBE9C1426F8D9D400EB9156 /* desert.jpg */,
+				0CBE9C1526F8D9D500EB9156 /* mountain.jpg */,
 				0CBE9C0426F82E9B00EB9156 /* LaunchScreen.storyboard */,
 				0CBE9C0726F82E9B00EB9156 /* Info.plist */,
+				0CBE9C1926F8EC0A00EB9156 /* CardCell.swift */,
 			);
 			path = cardsPractice;
 			sourceTree = "<group>";
@@ -140,6 +149,7 @@
 				0CBE9BFE26F82E9600EB9156 /* ViewController.swift in Sources */,
 				0CBE9BFA26F82E9600EB9156 /* AppDelegate.swift in Sources */,
 				0CBE9BFC26F82E9600EB9156 /* SceneDelegate.swift in Sources */,
+				0CBE9C1A26F8EC0A00EB9156 /* CardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
